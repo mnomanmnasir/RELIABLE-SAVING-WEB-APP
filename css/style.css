@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 body{
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.5;
+  /* font-family: 'Poppins', sans-serif; */
+  line-height: 1.5;
+  background-color: greenyellow;
 }
 
 .navbar {
@@ -17,24 +18,21 @@ body{
   font-weight: bold !important;
 }
 
-
-.container{
-  /* background-color: aquamarine; */
-}
-
-form{
+form {
   border: 2px solid black;
+
 }
 
-.form-group{
+.form-group {
   padding: 1rem;
 }
 
-.btn{
-  text-align: center;
+.btn {
+  /* text-align: center; */
   border-radius: 6rem;
-  
+
 }
+
 #register {
   font-size: 14px;
   text-decoration: none;
@@ -42,11 +40,28 @@ form{
   margin: 10% auto;
   width: 50%;
   text-align: center;
-  
+
 }
 
 #register a {
   margin: 10%;
   /* color: #8F7CEC; */
   text-decoration: none;
+}
+
+.heading {
+  margin: 30px;
+  text-align: center;
+  /* margin-top: 20px; */
+  /* font-weight: bold; */
+
+}
+
+.content {
+  /* background-image: url(../images/banner-bg.jpeg); */
+  background-repeat: no-repeat;
+  /* width: 20%; */
+  background-size: cover;
+  background-position: center;
+ 
 }
