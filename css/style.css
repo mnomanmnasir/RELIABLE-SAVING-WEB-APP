@@ -147,8 +147,9 @@ section {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/banner-bg.jpeg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/banner-bg.jpeg) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/Investment\ account.PNG) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(/images/Investment\ account.PNG) no-repeat;
+  width: 100%;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -171,24 +172,12 @@ section {
 
 .home .content span {
   font-weight: bolder;
-  color: transparent;
+  /* color: transparent; */
   -webkit-text-stroke: 0.1rem #fff;
   font-size: 4vw;
   display: block;
 }
 
-.home .content h3 {
-  font-size: 6vw;
-  color: #fff;
-}
-
-.home .content p {
-  max-width: 60rem;
-  margin: 1rem auto;
-  font-size: 1.4rem;
-  color: #aaa;
-  line-height: 2;
-}
 
 .about {
   display: -webkit-box;
@@ -251,7 +240,7 @@ section {
   form {
     margin-top: 50% !important;
   }
-  
+
 }
 
 @media (min-width: 787px) {
@@ -262,8 +251,8 @@ section {
   form {
     margin-top: 50% !important;
   }
-  
-  .destination .box-container > .box{
+
+  .destination .box-container>.box {
     margin-left: 50% !important;
   }
 }
@@ -273,7 +262,8 @@ section {
   .about>.content {
     margin-top: -20%;
   }
-  .destination .box-container > .box{
+
+  .destination .box-container>.box {
     margin-left: 50%;
   }
 
@@ -875,6 +865,7 @@ section {
   html {
     font-size: 55%;
   }
+
   .header {
     padding: 1.5rem 2rem;
   }
@@ -951,6 +942,15 @@ section {
     margin-left: 35% !important;
 
   }
+}
+
+/* product css */
+
+.product {
+  background-image: url(/images/Investment\ account.PNG);
+  background-repeat: no-repeat;
+  width: 100% !important;
+  /* margin: -50% !important; */
 }
 
 /*# sourceMappingURL=style.css.map */
