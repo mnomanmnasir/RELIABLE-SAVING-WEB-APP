@@ -630,11 +630,64 @@ section {
 
 /* product css */
 
-.product {
+/* .product {
   background-image: url(/images/Investment\ account.PNG);
   background-repeat: no-repeat;
   width: 100% !important;
-  /* margin: -50% !important; */
-}
+  margin: -50% !important; */
+/* } */
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* product css */
+
+.products .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
+}
+
+.products .box-container .box {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  border: 0.2rem solid #111;
+}
+
+.products .box-container .box:hover {
+  border: 0.2rem solid #111;
+}
+
+.products .box-container .box i {
+  /* font-size: 4rem; */
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.products .box-container .box h3 {
+  font-size: 3rem;
+  color: #111;
+  font-weight: bold;
+}
+
+.products .box-container .box p {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: #111;
+  /* line-height: 2; */
+  font-weight: bold;
+   
+}
+
+button{
+  font-size: 2rem;
+  padding: 2%;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 15%;
+  background-color: #111;
+}
