@@ -691,3 +691,22 @@ button{
   border-radius: 15%;
   background-color: #111;
 }
+
+
+.newsText{
+  margin-top: 20%;
+  text-align: center;
+}
+
+.newsTextarea{
+
+  /* margin-top: 10% !important; */
+  width: 85% !important;
+  padding: 10% !important;
+  margin: 30px 0% 0% 8% !important;
+  /* text-align: center; */
+  border: 3px solid gray;
+  /* align-items: center !important; */
+}
+
+
