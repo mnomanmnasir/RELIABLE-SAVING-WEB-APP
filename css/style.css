@@ -84,7 +84,7 @@ section {
 
 .header {
   position: fixed;
-  top: 0;
+  top:0;
   left: 0;
   right: 0;
   font-weight: bold;
@@ -365,6 +365,9 @@ section {
 @media (max-width: 450px) {
   .destination .box-container {
     margin-left: 0% !important;
+  }
+  .logo{
+    width: 20% !important;
   }
 }
 
