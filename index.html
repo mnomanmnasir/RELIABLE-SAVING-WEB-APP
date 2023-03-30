@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
     <!-- custom js file link  -->
-    <script src="js/script.js" defer></script>
 
 </head>
 
@@ -32,7 +31,17 @@
         <img src="images/logo.jpg" data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">
         <nav class="navbar">
             <a data-aos="zoom-in-left" data-aos-delay="300" href="index.html">home</a>
-            <a data-aos="zoom-in-left" data-aos-delay="450" href="product.html">Products</a>
+
+            <div data-aos="zoom-in-left" data-aos-delay="300" class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Products
+                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                </button>
+
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="products.html">Investment Acount</a>
+                    <a href="luckyDraw.html">Lucky Draw</a>
+                </div>
+            </div>
             <a data-aos="zoom-in-left" data-aos-delay="600" href="#wallet">Wallet</a>
             <a data-aos="zoom-in-left" data-aos-delay="750" href="news.html">News</a>
             <a data-aos="zoom-in-left" data-aos-delay="750" href="#contactus">Contact Us</a>
@@ -70,13 +79,15 @@
                 <h1 style="color: #fff; text-align: center;" class="p-5">LOGIN</h1>
                 <!-- Email input -->
                 <div class="form-outline mb-4" style="width: 80%; margin-left: 10%;">
-                    <input placeholder="Username" style="border: 0.2rem solid #fff; border-radius: 3rem;" type="email" id="form2Example1" class="form-control" />
+                    <input placeholder="Username" style="border: 0.2rem solid #fff; border-radius: 3rem;" type="email"
+                        id="form2Example1" class="form-control" />
                 </div>
 
                 <!-- Password input -->
                 <div class="form-outline mb-4"
                     style="width: 80%; margin-left: 10%; border-radius: 10rem; border: 1.2rem solid none;">
-                    <input placeholder="password" style="border: 0.2rem solid #fff; border-radius: 3rem;" type="password" id="form2Example2" class="form-control" />
+                    <input placeholder="password" style="border: 0.2rem solid #fff; border-radius: 3rem;"
+                        type="password" id="form2Example2" class="form-control" />
                 </div>
 
                 <!-- 2 column grid layout for inline styling -->
@@ -85,7 +96,8 @@
 
                     <div class="col">
                         <!-- Simple link -->
-                        <a style="color: #fff; font-size: 1.5rem; margin-left: 50%; text-decoration: none;" href="#!">Forgot password?</a>
+                        <a style="color: #fff; font-size: 1.5rem; margin-left: 50%; text-decoration: none;"
+                            href="#!">Forgot password?</a>
                     </div>
                 </div>
 
@@ -144,12 +156,13 @@
     <!-- footer section starts  -->
 
     <section class="footer credit">
-        <div class="credit">Ⓒ copyright 2023 <span>Relaible Saving</span> And Investment Limited <br> all rights reserved!
+        <div class="credit">Ⓒ copyright 2023 <span>Relaible Saving</span> And Investment Limited <br> all rights
+            reserved!
         </div>
 
         <div class="box-container">
 
-        
+
             <div class="box">
                 <p class="text-white"> <i class="fas fa-phone text-white"></i>+92336-2089146</p>
             </div>
@@ -188,7 +201,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-
+    <script src="js/jquery-3.6.1.min.js"></script>
 </body>
+
+
 
 </html>
