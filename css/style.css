@@ -791,3 +791,11 @@ section {
 .luckyDraw-Image {
   width: 70%;
 }
+
+.luckyDraw-btn{
+  padding: 1rem;
+  width: 20%;
+  font-size: 1rem;
+  margin: 5% 0% 0% 60%;
+  border: 0.5rem solid black;
+}
