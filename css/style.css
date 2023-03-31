@@ -52,7 +52,7 @@ section {
 }
 
 .heading h1 {
-  margin: 5%;
+  margin: 5% 0% 0% 5%;
   font-size: 5rem;
   color: #111;
 }
@@ -572,6 +572,11 @@ section {
   #menu-btn {
     display: inline-block;
   }
+  .investPlanInput{
+    width: 70%;
+    margin-left: 10%;
+    padding: -5%;
+  }
 
   .header .navbar {
     position: absolute;
@@ -799,3 +804,5 @@ section {
   margin: 5% 0% 0% 60%;
   border: 0.2rem solid black;
 }
+
+
