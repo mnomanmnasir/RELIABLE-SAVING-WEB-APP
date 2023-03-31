@@ -447,6 +447,7 @@ section {
 .footer .box-container {
   display: -ms-grid;
   display: grid;
+  padding: -10% !important;
   -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
@@ -455,6 +456,7 @@ section {
 .footer {
 
   background: white;
+  padding: 50%;
 }
 
 .footer .box-container .box {
@@ -474,7 +476,7 @@ section {
 .footer .box-container .box p {
   font-size: 1.4rem;
   color: #111;
-  padding: 1rem 0;
+  padding: -3rem 10px;
   line-height: 2;
   text-transform: none;
 }
@@ -546,7 +548,7 @@ section {
   background: #222;
   text-align: center;
   font-size: 2rem;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   color: #aaa;
 }
 
