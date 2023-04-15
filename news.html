@@ -56,8 +56,9 @@
                     <a href="feedback.html">Feedback</a>
                 </div>
             </div>
-            <a class="nav-link" href="#">
-                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <a id="contact" class="nav-link" href="">
+                <i id="info-btn" class="fa fa-user-circle-o" aria-hidden="true">
+                </i>
             </a>
         </nav>
 
@@ -66,6 +67,56 @@
     </header>
 
     <!-- header section ends -->
+    
+    <div class="cd-popup contact" role="alert">
+
+        <form style="  padding: 2rem; background-color: lightblue;">
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label"
+                    style="font-size: 1.5rem; font-weight: bold;">Acount Number</label>
+                <div class="col-sm-6">
+                    <input type="number"
+                        style="border: 0.2rem solid black;  border-radius: 5rem; padding: 1rem; margin-left: 5%;"
+                        class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <br>
+            <div class="form-group row">
+                <label style="font-size: 1.5rem; font-weight: bold;" for="inputPassword"
+                    class="col-sm-2 col-form-label">User Name</label>
+                <div style="gap: 2rem;" class="col-sm-6">
+                    <input type="text"
+                        style="border: 0.2rem solid black; padding: 1rem; border-radius: 5rem; margin-left: 5%;"
+                        class="form-control" id="inputPassword">
+                </div>
+
+            </div>
+            <br>
+            <div class="form-group row">
+                <label style="font-size: 1.5rem; font-weight: bold;" for="inputPassword"
+                    class="col-sm-2 col-form-label">Phone Number</label>
+                <div class="col-sm-6">
+                    <input type="number"
+                        style="border: 0.2rem solid black; padding: 1rem; border-radius: 5rem; margin-left: 5%;"
+                        class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <br>
+            <div class="form-group row">
+                <label style="font-size: 1.5rem; font-weight: bold;" for="inputPassword"
+                    class="col-sm-2 col-form-label">CNIC</label>
+                <div class="col-sm-6">
+                    <input type="number"
+                        style="border: 0.2rem solid black; padding: 1rem; border-radius: 5rem; margin-left: 5%;"
+                        class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <br>
+            <button class="investBtn">Signout</button>
+
+        </form>
+    </div>
+
     <div style="background-image: url(images/Announcement\ background.jpeg); padding: 5%; font-size: 10rem; width: 100%;"
         data-aos="fade-right" data-aos-delay="300" class="newsText">
         <h1>Announcement</h1>
@@ -117,7 +168,8 @@
     <!-- footer section starts  -->
 
     <section class="footer credit">
-        <div data-aos="fade-right" data-aos-delay="150" class="credit">Ⓒ copyright 2023 <span>Relaible Saving</span> And Investment Limited <br> all rights
+        <div data-aos="fade-right" data-aos-delay="150" class="credit">Ⓒ copyright 2023 <span>Relaible Saving</span> And
+            Investment Limited <br> all rights
             reserved!
         </div>
         <div class="box-container">
@@ -167,6 +219,7 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
 
+    <script src="js/jquery-3.6.1.min.js"></script>
 </body>
 
 </html>
