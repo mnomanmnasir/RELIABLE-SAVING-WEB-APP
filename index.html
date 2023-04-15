@@ -43,7 +43,7 @@
                     <a href="luckyDraw.html">Lucky Draw</a>
                 </div>
             </div>
-            
+
             <a data-aos="zoom-in-left" data-aos-delay="600" href="#wallet">Wallet</a>
             <a data-aos="zoom-in-left" data-aos-delay="750" href="news.html">News</a>
             <div data-aos="zoom-in-left" data-aos-delay="900" class="dropdown">
@@ -55,16 +55,88 @@
                     <a href="feedback.html">Feedback</a>
                 </div>
             </div>
-            <a class="nav-link" href="#">
-                <i id="info-btn" class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <a id="contact" class="nav-link" href="">
+                <i id="info-btn" class="fa fa-user-circle-o" aria-hidden="true">
+
+                </i>
             </a>
+
         </nav>
 
 
 
     </header>
     <!-- header section ends -->
+    <!-- 
+This is the Popup Contact Form we use at:
+http://notnatural.co
 
+Examples for submitting the form data can be found at:
+https://bit.ly/responsive-popup-contact-form
+
+Popup Contact Form based on:
+https://codepen.io/jhnwlsn/pen/vulgn by John Wilson
+https://codyhouse.co/gem/simple-confirmation-popup/
+-->
+
+    <div class="cd-popup contact" role="alert">
+
+        <form style="  padding: 2rem; background-color: lightblue;">
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label"
+                    style="font-size: 1.5rem; font-weight: bold;">Acount Number</label>
+                <div class="col-sm-6">
+                    <input type="number"
+                        style="border: 0.2rem solid black;  border-radius: 5rem; padding: 1rem; margin-left: 5%;"
+                        class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <br>
+            <div class="form-group row">
+                <label style="font-size: 1.5rem; font-weight: bold;" for="inputPassword"
+                    class="col-sm-2 col-form-label">User Name</label>
+                <div style="gap: 2rem;" class="col-sm-6">
+                    <input type="text"
+                        style="border: 0.2rem solid black; padding: 1rem; border-radius: 5rem; margin-left: 5%;"
+                        class="form-control" id="inputPassword">
+                </div>
+
+            </div>
+            <br>
+            <div class="form-group row">
+                <label style="font-size: 1.5rem; font-weight: bold;" for="inputPassword"
+                    class="col-sm-2 col-form-label">Phone Number</label>
+                <div class="col-sm-6">
+                    <input type="number"
+                        style="border: 0.2rem solid black; padding: 1rem; border-radius: 5rem; margin-left: 5%;"
+                        class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <br>
+            <div class="form-group row">
+                <label style="font-size: 1.5rem; font-weight: bold;" for="inputPassword"
+                    class="col-sm-2 col-form-label">CNIC</label>
+                <div class="col-sm-6">
+                    <input type="number"
+                        style="border: 0.2rem solid black; padding: 1rem; border-radius: 5rem; margin-left: 5%;"
+                        class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <br>
+            <button class="investBtn">Signout</button>
+
+        </form>
+    </div>
+
+    <div class="cd-popup notification" role="alert">
+        <div class="cd-popup-container">
+            <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times"
+                    style="pointer-events:none;"></i></a>
+            <p>
+            <h3 id="notification-text">Thanks for getting in touch!</h3>
+            </p>
+        </div>
+    </div>
 
     <section style="background-image: url(images/home.jpeg); background-repeat: no-repeat;" class="about" id="about">
 
@@ -79,8 +151,6 @@
                 through sound investment strategies and expert guidance. Our team is committed to providing
                 our clients with a high level of service and support.
             </p>
-
-
         </div>
 
         <div class="content" data-aos="fade-left" data-aos-delay="600">
@@ -116,7 +186,8 @@
 
                 <div class="text-center">
 
-                    <p style="color: #fff;">Not Registered? <button class="regBtn"><a href="signUp.html" style="text-decoration: none; color: #fff;">Signup</button></a></p>
+                    <p style="color: #fff;">Not Registered? <button class="regBtn"><a href="signUp.html"
+                                style="text-decoration: none; color: #fff;">Signup</button></a></p>
                 </div>
             </form>
         </div>
@@ -137,7 +208,8 @@
         </div>
 
         <div class="box-container">
-            <div style="margin-left: -200%; width: -40%; height: 50%;" class="box" data-aos="fade-up" data-aos-delay="250">
+            <div style="margin-left: -200%; width: -40%; height: 50%;" class="box" data-aos="fade-up"
+                data-aos-delay="250">
                 <img src="images/vision homepage pic.jpeg" alt="">
             </div>
 
@@ -165,7 +237,8 @@
     <!-- footer section starts  -->
 
     <section class="footer credit">
-        <div data-aos="fade-right" data-aos-delay="150" class="credit">Ⓒ copyright 2023 <span>Relaible Saving</span> And Investment Limited <br> all rights
+        <div data-aos="fade-right" data-aos-delay="150" class="credit">Ⓒ copyright 2023 <span>Relaible Saving</span> And
+            Investment Limited <br> all rights
             reserved!
         </div>
 
@@ -177,16 +250,18 @@
                     0336-2089146</p>
             </div>
 
-           
+
             <div class="box">
                 <p class="text-white"> <img src="images/whatupp.png" style="background-color: none; width: 15%;">
                     0336-2089146</p>
             </div>
             <div class="box">
-                <p class="text-white"> <img src="images/address.jpg" style="background-color: none !important; width: 5%;" > Pakistan Stock Exchange, Karachi </p>
+                <p class="text-white"> <img src="images/address.jpg"
+                        style="background-color: none !important; width: 5%;"> Pakistan Stock Exchange, Karachi </p>
             </div>
             <div class="box">
-                <p class="text-white"> <img src="images/mail.png" style="background-color: none; width: 10%;">reliablesavings@gmail.com</p>
+                <p class="text-white"> <img src="images/mail.png"
+                        style="background-color: none; width: 10%;">reliablesavings@gmail.com</p>
             </div>
         </div>
 
@@ -215,7 +290,5 @@
         crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.1.min.js"></script>
 </body>
-
-
 
 </html>
