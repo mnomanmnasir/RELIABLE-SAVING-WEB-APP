@@ -1004,8 +1004,8 @@ label:hover {
 .contact-form .acountNumber input:focus,
 .contact-form .userName input:focus,
 .contact-form .phoneNo input:focus,
-.contact-form .CNIC input:focus{
-background: #f4f5f6 !important;
+.contact-form .CNIC input:focus {
+  background: #f4f5f6 !important;
 }
 
 .contact-form .acountNumber label,
@@ -1035,6 +1035,7 @@ background: #f4f5f6 !important;
   clear: both !important;
   float: left !important;
 }
+
 .contact-form .submit {
   background: #f4f5f6 !important;
   display: block !important;
@@ -1054,3 +1055,6 @@ background: #f4f5f6 !important;
     padding: 0 0 10px !important;
   }
 }
+
+
+
